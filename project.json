@@ -1,0 +1,102 @@
+{
+  "slug": "tonnel",
+  "name": "Tonnel Network Token",
+  "symbol": "TONNEL",
+  "master": "EQDNDv54v_TEU5t26rFykylsdPQsv5nsSZaH_v7JSJPtMitv",
+  "decimals": 9,
+  "github": {
+    "owner": "Freebielife",
+    "repo": "TONNEL"
+  },
+  "pools": [
+    {
+      "address": "EQAvtGe8Nep_XncmQYJrqzWjjdsTaygzL17bvH_8Rjryz1xu",
+      "dex": "dedust",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQAvtGe8Nep_XncmQYJrqzWjjdsTaygzL17bvH_8Rjryz1xu/events?limit=100"
+    },
+    {
+      "address": "EQCxJlFTDDKhCHO_v71J-t76ZmOwDuIwSsInOYo0IPXq7gp1",
+      "dex": "stonfi",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQCxJlFTDDKhCHO_v71J-t76ZmOwDuIwSsInOYo0IPXq7gp1/events?limit=100"
+    },
+    {
+      "address": "EQApiihV2BcGT8V7CAOgkDDWtzB3-PqOHLz98SGBg_zJvUMR",
+      "dex": "stonfi",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQApiihV2BcGT8V7CAOgkDDWtzB3-PqOHLz98SGBg_zJvUMR/events?limit=100"
+    }
+  ],
+  "primary_pool": "EQAvtGe8Nep_XncmQYJrqzWjjdsTaygzL17bvH_8Rjryz1xu",
+  "links": {
+    "website": "https://www.tonnel.network/",
+    "telegram": "https://t.me/tonnel_en"
+  },
+  "services": {
+    "UQD4uGNdB4a3f52mYOZf0x1nCmdd1DAvrLppL0a1cetTYCQx": "Binance",
+    "EQDPfqI17W9lF-3OmAJu92GOn22BoTMdTmW6cY4s0V-ArRRY": "Bybit"
+  },
+  "engine_version": "1.3.0",
+  "discovery": {
+    "checkedAt": 1795717708,
+    "sources": [
+      "https://tonapi.io/v2/jettons/EQDNDv54v_TEU5t26rFykylsdPQsv5nsSZaH_v7JSJPtMitv",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQDNDv54v_TEU5t26rFykylsdPQsv5nsSZaH_v7JSJPtMitv/pools?page=1",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQDNDv54v_TEU5t26rFykylsdPQsv5nsSZaH_v7JSJPtMitv/pools?page=2"
+    ],
+    "primaryPoolPolicy": "largest indexed USD liquidity among swap-verified supported TON pools"
+  },
+  "project_description": {
+    "text": "Tonnel Network is the first Zero-Knowledge powered project built on the TON blockchain that provides privacy features for TON, JETTONs and NFTs.",
+    "origin": "token_metadata",
+    "sources": [
+      "https://tonapi.io/v2/jettons/EQDNDv54v_TEU5t26rFykylsdPQsv5nsSZaH_v7JSJPtMitv"
+    ],
+    "checked_at": "2026-11-26"
+  },
+  "flag_file": "web/project-flag.webp",
+  "logo_file": "web/project-logo.webp",
+  "logo_origin": "token_metadata",
+  "logo_source": "https://www.tonnel.network/Logo3.png",
+  "service_provenance": {
+    "0:f8b8635d0786b77f9da660e65fd31d670a675dd4302facba692f46b571eb5360": {
+      "category": "custody",
+      "source": "User-provided attribution, 2026-11-22; ownership not independently verified"
+    },
+    "0:cf7ea235ed6f6517edce98026ef7618e9f6d81a1331d4e65ba718e2cd15f80ad": {
+      "category": "custody",
+      "source": "User-provided attribution, 2026-11-22; ownership not independently verified"
+    }
+  },
+  "flag_source": "TONecoFlags #048 from the user-provided catalog; static frame prepared locally",
+  "template_repository": "Freebielife/TON-Observatory-Template",
+  "max_html_bytes": 2500000,
+  "ui": {
+    "holders_initial": 10,
+    "holders_expanded": 20
+  },
+  "methodology": {
+    "valuation": "last observed swap in primary_pool times CURRENT total supply; not circulating market cap",
+    "primary_pool": "EQAvtGe8Nep_XncmQYJrqzWjjdsTaygzL17bvH_8Rjryz1xu",
+    "sellers": "sum of successful supported native TON swap sales; service roles excluded",
+    "holders": "balances excluding known services and identified contracts; unclassified accounts may remain until verified",
+    "burns": "accepted burn notifications and zero-address transfers shown as distinct evidence",
+    "usd": "historical TON/USD rate from CoinGecko",
+    "history": "incremental confirmed swaps; missing intervals remain partial"
+  },
+  "branding": {
+    "hero": {
+      "origin": "token_metadata",
+      "source": "https://www.tonnel.network/Logo3.png",
+      "file": "web/project-logo.webp"
+    },
+    "sectionFlag": {
+      "source": "TONecoFlags #048 from the user-provided catalog; static frame prepared locally",
+      "catalogueKey": "048",
+      "emoji": null,
+      "file": "web/project-flag.webp"
+    },
+    "channel": "https://t.me/tonnel_en"
+  }
+}
